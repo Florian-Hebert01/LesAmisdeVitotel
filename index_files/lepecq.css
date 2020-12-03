@@ -1,0 +1,199 @@
+/*
+site : www.lepecq.net
+date : 20 février 2005
+*/
+
+body
+{
+background-color:#ffffcc;
+color:#ff7241;
+text-align:center;
+font-family: Georgia, Futura, Verdana, Lucida, Helvetica, Arial, sans-serif;
+font-weight:normal;
+font-size:1.1em;
+}
+
+#corps
+{
+margin-left:10ex;
+margin-right:10ex;
+}
+
+h1
+{
+font-size:1.8em;
+}
+
+h2
+{
+font-size:1.4em;
+}
+
+h3
+{
+font-size:1.3em;
+text-align:right;
+color:#6080ED;
+border-bottom:1px solid #6080ED;
+font-style:italic;
+}
+
+h3 em
+{
+font-style:normal;
+background-color:#6080ED;
+color:#ffffcc;
+}
+
+p
+{
+text-align:justify;
+}
+
+a
+{
+text-decoration:none;
+color:#5EA3ED;
+border-bottom:1px dotted #5EA3ED;
+}
+
+a:hover, a:active
+{
+color:#ffffcc;
+background-color:#5EA3ED;
+}
+
+acronym
+{
+cursor:help;
+}
+
+blockquote
+{
+border:1px dashed #a52a2a;
+padding:0.25em;
+background-color:#f2d0d0;
+color:#000066;
+text-align:justify;
+text-indent:1.5em;
+font-style:italic;
+}
+
+blockquote span.italique
+{
+font-style:normal;
+}
+
+blockquote span.underline
+{
+text-decoration: underline;
+}
+
+blockquote span.bold
+{
+font-weight: bold;
+}
+
+cite
+{
+font-style:italic;
+color:#000066;
+}
+
+table
+{
+margin-left:auto;
+margin-right:auto;
+}
+
+#corps table.image
+{
+border:1px dashed #4797ED;
+background-color:#CADBED;
+padding:0.1em;
+}
+
+#corps table.image p
+{
+color:#5571c6;
+font-size:0.8em;
+text-align:center;
+margin:0;
+}
+
+span.marron
+{
+color:#a52a2a;
+}
+
+.carte
+{
+text-align: center;
+width: 400px;
+border:1px solid #4dbfff;
+background-color:#a6ddff;
+color:#3684b3;
+margin: auto;
+}
+
+#menu
+{
+padding-bottom:0.05em;
+border-bottom:3px solid #336699;
+}
+
+#menu ul
+{
+margin:0;
+padding:0;
+list-style-type:none;
+text-align:center;
+}
+
+#menu ul li
+{
+display:inline;
+}
+
+#menu ul li a
+{
+text-decoration:none;
+padding: .2em 1em;
+color:#336699;
+background-color:transparent;
+border: 2px solid #336699;
+font-size:small;
+font-weight:normal;
+}
+
+#Index #nav-Index a, #Camille #nav-Camille a, #Simone #nav-Simone a, #Janine #nav-Janine a, #Denise #nav-Denise a, #Louis #nav-Louis a, #Genevieve #nav-Genevieve a
+{
+background-color:#D3E3F3;
+border:1px solid #336699;
+}
+
+#menu a:hover, #menu a:active
+{
+background-color:#AECFF2;
+-moz-border-radius:6px;
+color:#ffffcc;
+}
+
+#signature
+{
+color:black;
+font-size:small;
+border-top:2px dotted #ffc700;
+}
+
+#signature p
+{
+margin-left:0ex;
+}
+
+#signature img
+{
+float:right;
+border:0 none gray;
+margin:8px 5px 0px 0px;
+}
