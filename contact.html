@@ -21,36 +21,20 @@
         <div class="texte">
 <h1 align="center"><strong>Contact</strong></h1>
 <table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
-<form action="envoie.php" method="post" enctype="application/x-www-form-urlencoded" name="formulaire">
-<tr>
-<td colspan="3"><strong>Envoyer un message</strong></td>
-</tr>
-<tr>
-<td></br><div align="left">Votre nom:</div></td>
-<td colspan="2"></br><input type="text" name="nom" size="45" maxlength="100"></td>
-</tr>
-<tr>
-<td width="17%"></br><div align="left">Votre mail:</div></td>
-<td colspan="2"></br><input type="text" name="mail" size="45" maxlength="100"></td>
-</tr>
-<tr>
-<td></br><div align="left">Sujet: </div></td>
-<td colspan="2"></br><input type="text" name="objet" size="45" maxlength="120"></td>
-</tr>
-<tr>
-<td><div align="left">Message: </div></td>
-<td colspan="2"></br><textarea name="message" cols="50" rows="10"></textarea></td>
-</tr>
-<tr>
-<td></td>
-<td width="42%"><center>
-<input type="reset" name="Submit" value="Réinitialiser le formulaire">
-</center></td>
-<td width="41%"><center>
-<input type="submit" name="Submit" value="Envoyer">
-</center></td>
-</tr>
-</form>
+			<form method="POST" action="/contact/index.php">
+			<form method="POST" action="/contact/index.php">
+
+				Nom : <input type="text" name="name"><br><br>
+				Email : <input type="text" name="email"><br><br>
+				Site WEB : <input type="text" name="website"><br><br>
+				Commentaire : <textarea name="comment" rows="5" cols="40"></textarea><br><br>
+
+				<input type="radio" name="gender" value="female"> Femme
+				<input type="radio" name="gender" value="male"> Homme
+				<input type="radio" name="gender" value="other"> Autre <br><br>
+
+    			<input type="submit">
+    		</form>
 </table>
 <br>
 </div>
