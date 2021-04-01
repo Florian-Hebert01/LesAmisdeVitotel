@@ -9,7 +9,7 @@ $headers = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n"; 
 $headers .= "From: $nom <$mail>\r\nReply-to : $nom <$mail>\nX-Mailer:PHP"; 
 $subject="$objet"; 
-$destinataire="contact@vitotel.fr"; 
+$destinataire="blier.evan@gmail.com"; 
 $body="$message"; 
 if (mail($destinataire,$subject,$body,$headers)) { 
 echo "Votre mail a été envoyé<br>"; 
