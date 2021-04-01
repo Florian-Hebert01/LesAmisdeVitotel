@@ -3,8 +3,6 @@ $nom=$HTTP_POST_VARS['nom'];
 $mail=$HTTP_POST_VARS['mail']; 
 $objet=$HTTP_POST_VARS['objet']; 
 $message=$HTTP_POST_VARS['message']; 
-
-
 $headers = "MIME-Version: 1.0\r\n"; 
 $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n"; 
 $headers .= "From: $nom <$mail>\r\nReply-to : $nom <$mail>\nX-Mailer:PHP"; 
