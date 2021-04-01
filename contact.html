@@ -1,53 +1,67 @@
 <html lang="fr">
 <head>
-    <title>Les Amis de Vitotel | Contact</title>
+    <title>Les Amis de Vitotel</title>
     <meta charset="UTF-8" />
-    <link rel="icon" href="Photos/logovitotel.jpg" />
-    <link rel="stylesheet" href="index.css" />  
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />  
 </head>
     <body>
         <div class="navbar-container">
             <ul class="navbar">
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="Lesamisdevitotel.html">Les Amis de Vitotel</a></li>
-                <li><a href="Histoire.html">Histoire</a></li>
-                <li><a href="vitotel_1913.html">Vitotel en 1913</a></li>
+                <li><a href="lesamisdevitotel.html">Les Amis de Vitotel</a></li>
+                <li><a href="#">Histoire</a></li>
+                <li><a href="#">Vitotel en 1913</a></li>
                 <li><a href="SaintMicheldeVitotel.html">Saint Michel de Vitotel</a></li>
-                <li><a href="Photos1.html">Photos</a></li> 
-                <li><a href="saint_clair.html">Saint clair</a></li>
+                <li><a href="#">Photos</a></li> 
+                <li><a href="#">Saint clair</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
         <div class="texte">
 <h1 align="center"><strong>Contact</strong></h1>
 <table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
-			<form method="POST" action="/contact/index.php">
-			<form method="POST" action="/contact/index.php">
-
-				Prénom / Nom: <input type="text" name="name"><br><br>
-				Email : <input type="text" name="email"><br><br>
-				Commentaire : <textarea name="comment" rows="5" cols="40"></textarea><br><br>
-
-				<input type="radio" name="gender" value="female"> Femme
-				<input type="radio" name="gender" value="male"> Homme
-				<input type="radio" name="gender" value="other"> Autre <br><br>
-
-    			<input type="submit">
-    		</form>
+<form action="envoi.php" method="post" enctype="application/x-www-form-urlencoded" name="formulaire">
+<tr>
+<td colspan="3"><strong>Envoyer un message</strong></td>
+</tr>
+<tr>
+<td></br><div align="left">Votre nom:</div></td>
+<td colspan="2"></br><input type="text" name="nom" size="45" maxlength="100"></td>
+</tr>
+<tr>
+<td width="17%"></br><div align="left">Votre mail:</div></td>
+<td colspan="2"></br><input type="text" name="mail" size="45" maxlength="100"></td>
+</tr>
+<tr>
+<td></br><div align="left">Sujet: </div></td>
+<td colspan="2"></br><input type="text" name="objet" size="45" maxlength="120"></td>
+</tr>
+<tr>
+<td><div align="left">Message: </div></td>
+<td colspan="2"></br><textarea name="message" cols="50" rows="10"></textarea></td>
+</tr>
+<tr>
+<td></td>
+<td width="42%"><center>
+<input type="reset" name="Submit" value="Réinitialiser le formulaire">
+</center></td>
+<td width="41%"><center>
+<input type="submit" name="Submit" value="Envoyer">
+</center></td>
+</tr>
+</form>
 </table>
-<br>
+<center>
 </div>
 <footer>
-<center>
     <div class="texte5">
         <p>Francis Durand -- Contact : <a href="mailto:contact@vitotel.fr">contact@vitotel.fr</a></br>
             Les amis de Vitotel, association loi 1901</br>
         </br>
            License : <a href="http://www.creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons</a></p>
     </div>
-<a href="mentionlegales.pdf">Mention Légales</a>
-</center>
 </footer>
-
+</center>
 </body>
 </html>
